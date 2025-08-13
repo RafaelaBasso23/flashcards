@@ -13,6 +13,14 @@ cartao.innerHTML= `<div class="cartao_conteudo">
                     </div>
                 </div>
                 `
+letrepostaVisiel =false
+
+function viraCartao(){
+    respostaVisivel = !respostaVisivel
+    cartao.classList.toggle('active', respostaVisivel)
+}
+cartao.addEventListener("click", viraCartao)
+
 container.appendChild(cartao)
 
 
