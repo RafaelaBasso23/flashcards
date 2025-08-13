@@ -4,7 +4,7 @@ body{
 }
 
 #container{
-    display: Flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 4rem;
@@ -17,13 +17,13 @@ body{
     flex-basis: calc(32%-6rem);
   } 
   
-        .cartao_conteudo{
-            text-align:center;
-            background-color: aqua;
-            height:100%;
-            transform-style: preserve-3d;
-            transition: transform 300ms ease-in-out;
-        }
+.cartao_conteudo{
+    text-align:center;
+    background-color: aqua;
+    height:100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
   
 .cartao_conteudo h3 {
     background-color: tomato;
